@@ -7,7 +7,12 @@
 }
 html{
     font-size: 10px;
-    font-family: 'Monserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+::selection{
+    background-color: rgb(97, 97, 179);
+    color: white;
+    
 }
 a{
     text-decoration: none;
@@ -162,6 +167,7 @@ color: black;
 #services .service-item h2{
    font-size: 2rem;
    color: white;
+   margin-top: 10px;
    margin-bottom: 10px;
    text-transform: uppercase;
 
@@ -177,6 +183,20 @@ color: black;
     font-family: monospace;
     
  }
+
+ #services .service-item a{
+    display: inline-block;
+    color: crimson;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    margin-top: 36px;
+ }
+
+ #services .service-item a:hover{
+     text-decoration: underline;
+ }
+
+ /* End of 
 
 /*keyframes*/
 @keyframes text_reveal_box{
